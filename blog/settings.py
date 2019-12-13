@@ -25,7 +25,7 @@ SECRET_KEY = '+g8tjv9@)em3n3xiw6$$+kib+c!vpv8=0j^)2v98hf3-xw37tk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'fb-blogs.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'fb-blogweb.herokuapp.com']
 
 
 # Application definition
