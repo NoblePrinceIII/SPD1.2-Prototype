@@ -117,7 +117,7 @@ USE_TZ = True
 
 
 
-Static files (CSS, JavaScript, Images)
+# Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
@@ -126,13 +126,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
-# if os.getenv('IS_ON_HEROKU', False):
-#     STATICFILE_DIRECTORY = 'static'
-# else:
-#     STATICFILE_DIRECTORY = 'static/assets'
-#     STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR, STATICFILE_DIRECTORY)
-# ]
 
 LOGIN_REDIRECT_URL = 'blog-home'
 
