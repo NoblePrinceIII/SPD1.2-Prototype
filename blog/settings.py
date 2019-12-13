@@ -25,7 +25,7 @@ SECRET_KEY = '+g8tjv9@)em3n3xiw6$$+kib+c!vpv8=0j^)2v98hf3-xw37tk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'fb-blogweb.herokuapp.com', '127.0.0.1:8000']
+ALLOWED_HOSTS = ['localhost', 'fb-blogweb.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -116,13 +116,16 @@ USE_L10N = True
 USE_TZ = True
 
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.0/howto/static-files/
 
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.9/howto/static-files/
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
-# STATIC_ROOT = os.path.join(BASE_DIR, ‘static’)
-
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
 LOGIN_REDIRECT_URL = 'blog-home'
 
