@@ -25,21 +25,21 @@ SECRET_KEY = '+g8tjv9@)em3n3xiw6$$+kib+c!vpv8=0j^)2v98hf3-xw37tk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'fb-blogweb.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', 'fb-blogweb.herokuapp.com', '127.0.0.1', '0.0.0.0']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'rest_framework',
-    'users',
-    'entries',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'users',
+    'entries',
 ]
 
 MIDDLEWARE = [
