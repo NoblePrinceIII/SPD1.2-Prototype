@@ -8,5 +8,7 @@ https://fb-blogweb.herokuapp.com/
 
 ![picture](/screenshots/2.png)
 
+![picture](/screenshots/3.png)
+
 Rest Framework
 ![picture](/screenshots/restful.png)
