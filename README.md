@@ -9,4 +9,4 @@ https://fb-blogweb.herokuapp.com/
 ![picture](/screenshots/2.png)
 
 Rest Framework
-![picture](/screenshots/rest.png)
+![picture](/screenshots/restful.png)
