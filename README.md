@@ -1,14 +1,16 @@
-A Blog website created by Farhan Begg
-Users are able post their comments on the newsfeed
-where other users are able to view
+A website created by Farhan Begg
+
+User Journey:
+
+first users will register to an account
+
+Then the user will be able to log in
+
+after that users will able to see books, blog, or comments on their feed.
+
+Users will be able to create their own posts, they can choose whatever they would want ot post
 
 https://fb-blogweb.herokuapp.com/
 
 ![picture](/screenshots/1.png)
-
-![picture](/screenshots/2.png)
-
-![picture](/screenshots/3.png)
-
-Rest Framework
-![picture](/screenshots/restful.png)
+# SPD1.2-Prototype
